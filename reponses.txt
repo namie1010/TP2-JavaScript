@@ -1,0 +1,29 @@
+TP2 – Questions de compréhension
+
+1. Pourquoi utilise-t-on const pour le tableau ?
+Pour empêcher la réaffectation de la variable etudiants.
+
+2. Quelle différence existe entre map() et filter() ?
+map() transforme chaque élément, tandis que filter()
+sélectionne les éléments qui respectent une condition.
+
+3. Pourquoi tester un tableau vide ?
+Pour éviter la division par zéro lors du calcul de la moyenne.
+
+4. Quelle est la valeur renvoyée par noteValide(-2) ?
+false, car une note négative n'est pas autorisée.
+
+5. Si Salma passe de 14 à 18, combien d'admis obtient-on ?
+Toujours 3 admis. La nouvelle moyenne devient 13.5.
+
+6. Pourquoi ne pas calculer reduce() directement sur
+le tableau etudiants sans adapter sa fonction ?
+Parce que le tableau contient des objets et non des nombres.
+Il faut utiliser e.note pour accéder à chaque note.
+
+7. Pourquoi les résultats de == et === sont-ils différents ?
+== compare les valeurs avec conversion automatique des types.
+=== compare la valeur et le type sans conversion automatique.
+
+8. Qu'est-ce que la déstructuration ?
+Elle permet d'extraire directement les propriétés d'un objet.
